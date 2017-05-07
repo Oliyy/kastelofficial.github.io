@@ -54,20 +54,8 @@ body {
 }
 
 .nav li a:hover {
-  padding:10px 14px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-  background-color: #303030;
+    background-color: #303030;
     color: white;
-}
-
-#left:hover #logoLeft {
-    opacity: 0.4;
-    transition: opacity 0.3s ease-in-out;
-}
 }
 
 #protitle {
