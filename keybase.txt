@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kastel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kastel.pw
+  * I am kastel (https://keybase.io/kastel) on keybase.
+  * I have a public key with fingerprint 891A AEC0 0729 31BB 1950  D54E FEA4 5D55 A0F6 F2E5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015641bd5fc75bb859b3e4b3146d748fef25f74bfb125764401eb1744cd3c899ee0a",
+            "fingerprint": "891aaec0072931bb1950d54efea45d55a0f6f2e5",
+            "host": "keybase.io",
+            "key_id": "fea45d55a0f6f2e5",
+            "kid": "01015641bd5fc75bb859b3e4b3146d748fef25f74bfb125764401eb1744cd3c899ee0a",
+            "uid": "e2fffbe70e6d1bbd46e9cafb4219e019",
+            "username": "kastel"
+        },
+        "service": {
+            "hostname": "kastel.pw",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494124381,
+    "expire_in": 157680000,
+    "prev": "fc2afe2a77472bffb5642af0eee82b37e3ab17e695fe438ef19e45a065623795",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMIXAnicrVJbSBVBGN7TvSNFVHQRIlyK1MR2dmdvxyioh4zKHkLDLpxmdv/V1dPu
+Obt7Th0sKkgs6KE0CorAohtplBJFdCErQuki5mOhPnShzG5gEUE1K/UQ9Ni8DPPN
+933z/R9zf9JoLhqZndf6qHv69rmRhx2Naa5ycsPmOp66ZpaP1fG1MLJBwgQ/iNfa
+Jh/jBSQgWcGImrJlqDKlmqxTCTCVEFZMFWsWWKJsqZhaFImyqmAsIKBIxdgwJUPT
+dQCB8EW8ZTtV4CU92wmYraYjQsAQBFXUJUQp0mXBlDFYQLBsyjIRLMUSQWbCatcP
+FSwcJT4U2y7D2CE+Eu8f/P+cOz1iB6JlWRRUARSTxTWxArpBLIpFpIOA9JDog+eQ
+rRBmJX4ACX5nEc+wjG1AWGs4x1/3xcltTJb03MA13ASDq4MgGQtVQTYZ0rYBjf82
+iFPbMVmDTJABz7ddh48hxjQCO3REWMdIxJKGinjYnrQ9iNshg82lCWyFz0Am7MsQ
+iQUiUVWsipSNxDpiiAAAmkglFSTCOgBFly1gdmCx8TBrV5EVUVL1sF8fUo7LvCWW
+k1QxT9+uckiQ9oDfeffOpjFcJMqNGzsq/FpcdOKUPx/uSv0E7lRqyXpB1U1KVidK
+h3Y8y+vJT5/asLzvdcOtBe/etqyOXb4fKbvZRTN6xYt1dTk3ClDrjtlc82DHyzx0
+NbKi55V8tuxz98VjbzY+hWt7S/fLBW0VVR/jZEj7EW28MdjOH88xDpJ7h8uD7NSZ
+OUbKLai/3VlS239yRtfNVccb9/08MWfrmieX3lzfsiixNDut73D1sgO9Z0oHVjpu
+79zY1wNjtfzJTefOz6rNnRSbuPdDYYmSfyTethu5qcffy1Ycmt9SOdzaZAw3f2vZ
+ddpERxfW7OEerNWj5SeHa8Z/GtwPz8cVzpxXMfCF9Dd5R5VZMWVx+9nmCwMk+/5B
+rpgZ6vwFhqE6RQ==
+=RVM8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kastel
+
+==================================================================
