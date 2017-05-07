@@ -56,6 +56,15 @@ body {
 .nav li a:hover {
     background-color: #303030;
     color: white;
+    #logoLeft {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#left:hover #logoLeft {
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+}
 }
 
 #protitle {
