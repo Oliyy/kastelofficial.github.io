@@ -1,0 +1,187 @@
+#vid {
+	width: 100%;
+	height: 50vh;
+}
+
+#vid video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	min-height: 100%;
+	min-width: 100%;
+  z-index: 0;
+}
+
+h1 {
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: -25px;
+  top: 55%;
+  left: 50%;
+  font-family: 'Gloria Hallelujah', cursive;
+  /* text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff; */
+  -webkit-text-stroke: .01px white;
+  font-size: 40px;
+}
+
+h3 {
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: -25px;
+  top: 60%;
+  left: 48.5%;
+  font-family: 'Gloria Hallelujah', cursive;
+  /* text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff; */
+  -webkit-text-stroke: .01px white;
+  font-size: 40px;
+}
+
+h6 {
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: -25px;
+  top: 76%;
+  left: 42.5%;
+  font-family: 'Gloria Hallelujah', cursive;
+  /* text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff; */
+  -webkit-text-stroke: .01px white;
+  font-size: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0A122A;
+}
+
+/* center the wrapper */
+.wrapper {
+  position: absolute;
+  top: 70%;
+  left: 57.3%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height
+  and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  float: left;
+  transition: all 0.5s ease;
+	background-color: #3d3d3d;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px
+to align it properly */
+.wrapper ul li .fa {
+  color: #000000;
+  margin-top: 10px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*r/space*/
+.wrapper ul li:hover.reddit {
+  border: 5px solid #E54B43;
+  box-shadow: 0 0 15px #E54B43;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-reddit {
+  color: #E54B43;
+  text-shadow: 0 0 15px #E54B43;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00ABEC;
+  transition: all 0.5s ease;
+}
+
+/* git clone suicide */
+.wrapper ul li:hover.github {
+  border: 5px solid #F4BB44;
+  box-shadow: 0 0 15px #F4BB44;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-github {
+  color: #F4BB44;
+  text-shadow: 0 0 15px #F4BB44;
+  transition: all 0.5s ease;
+}
+
+/* keybase */
+.wrapper ul li:hover.key {
+  border: 5px solid #FF6F26;
+  box-shadow: 0 0 15px #FF6F26;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-key {
+  color: #FF6F26;
+  text-shadow: 0 0 15px #FF6F26;
+  transition: all 0.5s ease;
+}
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+  .wrapper {
+      width: 350px;
+  }
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+  .wrapper ul li.google{
+      margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .wrapper {
+      width: 150px;
+  }
+  .wrapper ul li{
+      margin:15px;
+  }
+  .wrapper ul li.google{
+      margin-left: 15px;
+  }
+}
