@@ -69,17 +69,6 @@ h6 {
   text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff;
 }
 
-.button i {
-  /* padding: 10px;
-  width: 70px;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 5px solid #000000;
-
-  transition: all 0.5s ease;
-  background-color: #3d3d3d; */
-}
-
 .keybase i {
   margin-left: 150px;
 }
